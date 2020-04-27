@@ -2,3 +2,6 @@
 *.a
 src/lua
 src/luac
+.idea
+.DS_Store
+cmake-*
