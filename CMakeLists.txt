@@ -64,7 +64,7 @@ add_library(lua STATIC
         src/lzio.h
         )
 
-target_include_directories(lua PUBLIC src)
+target_include_directories(lua PUBLIC include)
 
 if (APPLE)
     target_compile_definitions(lua PRIVATE LUA_USE_MACOSX)
