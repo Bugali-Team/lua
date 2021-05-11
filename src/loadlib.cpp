@@ -91,8 +91,8 @@ static void *lsys_load (lua_State *L, const char *path, int seeglb);
 */
 static lua_CFunction lsys_sym (lua_State *L, void *lib, const char *sym);
 
-
-
+// TODO : find a more permanent solution
+#undef LUA_USE_DLOPEN
 
 #if defined(LUA_USE_DLOPEN)	/* { */
 /*
