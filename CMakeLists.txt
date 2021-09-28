@@ -9,7 +9,6 @@ add_library(lua STATIC
         src/lauxlib.cpp
         src/lauxlib.h
         src/lbaselib.cpp
-        src/lbitlib.cpp
         src/lcode.cpp
         src/lcode.h
         src/lcorolib.cpp
@@ -27,6 +26,7 @@ add_library(lua STATIC
         src/lgc.h
         src/linit.cpp
         src/liolib.cpp
+        src/ljumptab.h
         src/llex.cpp
         src/llex.h
         src/llimits.h
@@ -38,6 +38,7 @@ add_library(lua STATIC
         src/lobject.h
         src/lopcodes.cpp
         src/lopcodes.h
+        src/lopnames.h
         src/loslib.cpp
         src/lparser.cpp
         src/lparser.h
