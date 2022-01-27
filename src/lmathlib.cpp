@@ -11,7 +11,7 @@
 
 
 #include <float.h>
-#include <limits.h>
+#include <climits>
 #include <math.h>
 #include <stdlib.h>
 #include <time.h>

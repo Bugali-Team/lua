@@ -8,7 +8,7 @@
 #define llimits_h
 
 
-#include <limits.h>
+#include <climits>
 #include <stddef.h>
 
 
